@@ -58,6 +58,7 @@ Developed for hobbyist under Frontier’s EULA and VoiceMacro plugin framework.
 Created by Sutex Osofar using ChatGPT and cross-checking with CoPilot.
 
 The idea from the beginning, since I'm not a coder and had to learn, was to prove the viability of AI to make a Voice Macro plugin for Elite Dangerous; only time and players testing the plugin will prove if that goal has been achieved. As such, I won't be maintaining this plugin since I have reached the end of the line of using AI (herding feral cats) to get this far. It will now be up to individual users (those who can actually code) to improve/polish the plugin from this point forward if indeed this plugin proves to be useful :)
+
 Uses [Newtonsoft.Json 13.0.3](https://www.newtonsoft.com/json)
 
 ---
