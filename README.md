@@ -27,42 +27,6 @@ No injection or memory hooks — everything is driven by file watchers and JSON 
 
 ---
 
-## 🧩 VoiceMacro Variables
-All `vm_*` variables mirror to persistent `*_p` variants for stable macro reads.
-
-| Variable | Type | Purpose |
-|-----------|------|----------|
-| `vm_docked` | bool | 1 when docked |
-| `vm_in_supercruise` | bool | 1 in Supercruise |
-| `vm_on_foot` | bool | 1 on foot |
-| `vm_environment` | text | Derived environment |
-| `vm_firegroup` | int | Active firegroup |
-| `vm_star_system` | text | Current system |
-| `vm_body` | text | Current body name |
-| `vm_station_name` | text | Current station |
-| `vm_target_locked` | bool | 1 when target locked |
-| `vm_target_name_s` | text | Target name |
-| `vm_music_track` | text | Current music cue |
-| `vm_in_wing` | bool | 1 when in wing |
-| `vm_in_multicrew` | bool | 1 when in multicrew |
-| `vm_plugin_alive` | ISO-8601 | Plugin heartbeat |
-| *(many more `*_p` mirrors and `ed_*` binds variables — see `VMVarTypes.txt`)* |
-
----
-
-## 🛠️ Commands (`ReceiveParams`)
-| Command | Description |
-|----------|--------------|
-| `checkbinds`, `checkbindings`, `checkbind` | Validate keybinds and log summary |
-| `edbinds` | Parse `.binds` and export `ed_*` vars |
-| `aion`, `aioff`, `aitoggle` | Control AI/Machina bridge |
-| `rp_on`, `rp_off`, `lfw_on`, `lfw_off` | Presence toggles |
-| `setremote <url>` | Configure VoiceMacro remote endpoint |
-| `auditstart`, `auditstop`, `auditcsv` | Audit timers & snapshots |
-| `getvar <name>` | Reads variable and writes to `vm_getvar_value_s` |
-
----
-
 ## 🗂️ Files Produced
 | File | Description |
 |------|--------------|
